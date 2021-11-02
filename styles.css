@@ -7,16 +7,30 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
-    background:black;
+    background:white;
+    border-radius: 5px;
     
 }
 
 .assignment img {
     width:300px;
-    padding:10px;
+    margin:10px;
+    border:2px solid darkred
+}
+.assignment img:hover {
+    border:2px solid black
 }
 
 h1{
     color: white;
     text-align:center; 
+}
+
+a {
+    text-decoration: none;
+    color:darkred
+}
+
+a:hover{
+    color:black
 }
